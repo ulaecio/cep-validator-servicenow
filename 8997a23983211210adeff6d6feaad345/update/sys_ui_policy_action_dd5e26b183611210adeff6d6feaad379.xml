@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>cidade</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:24:14</sys_created_on>
+        <sys_id>dd5e26b183611210adeff6d6feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cidade</sys_name>
+        <sys_package display_value="CEP Validator" source="x_1259159_cepvalid">8997a23983211210adeff6d6feaad345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CEP Validator">8997a23983211210adeff6d6feaad345</sys_scope>
+        <sys_update_name>sys_ui_policy_action_dd5e26b183611210adeff6d6feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:24:14</sys_updated_on>
+        <table>x_1259159_cepvalid_address</table>
+        <ui_policy display_value="Bloquear campos de endereço">8abca23183611210adeff6d6feaad3d8</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd5e26b183611210adeff6d6feaad379"/>
+</record_update>

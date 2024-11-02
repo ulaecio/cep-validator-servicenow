@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope, $http) {
+    var c = this;
+
+    c.getAddress = function() {
+        if (!c.cep) {
+            alert('Por favor, digite um CEP.');
+            return;
+        }
+
+        // Chamada para API externa (ViaCEP)
+        $http.get('https://viacep.com.br/ws/' + c.cep + '/json/')
+            .then(function(response) {
+                if (response.data.erro) {
+                    alert('CEP inválido.');
+                    c.address = null;
+                } else {
+                    c.address = response.data;
+                }
+            })
+            .catch(function(error) {
+                alert('Erro ao buscar endereço.');
+            });
+    };
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>consulta_endereco_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Widget de Consulta de Endereço</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script/>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:58:11</sys_created_on>
+        <sys_id>1a45b6f983611210adeff6d6feaad38c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Widget de Consulta de Endereço</sys_name>
+        <sys_package display_value="CEP Validator" source="x_1259159_cepvalid">8997a23983211210adeff6d6feaad345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CEP Validator">8997a23983211210adeff6d6feaad345</sys_scope>
+        <sys_update_name>sp_widget_1a45b6f983611210adeff6d6feaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 14:23:55</sys_updated_on>
+        <template><![CDATA[<div class="container">
+  <h2>Consulta de Endereço</h2>
+  <form ng-submit="c.getAddress()" class="form-horizontal">
+    <div class="form-group">
+      <label for="cep">CEP:</label>
+      <input type="text" ng-model="c.cep" placeholder="Digite o CEP" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar Endereço</button>
+  </form>
+  <div class="address-info" ng-if="c.address">
+    <h4>Endereço:</h4>
+    <p><strong>Logradouro:</strong> {{c.address.logradouro}}</p>
+    <p><strong>Bairro:</strong> {{c.address.bairro}}</p>
+    <p><strong>Cidade:</strong> {{c.address.localidade}}</p>
+    <p><strong>Estado:</strong> {{c.address.uf}}</p>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>1a45b6f983611210adeff6d6feaad38c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:58:10</sys_created_on>
+        <sys_id>4126b2f983611210adeff6d6feaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:58:10</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

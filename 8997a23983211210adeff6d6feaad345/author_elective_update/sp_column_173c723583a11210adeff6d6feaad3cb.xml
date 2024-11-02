@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag>main</semantic_tag>
+        <size/>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">573c723583a11210adeff6d6feaad3c8</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 14:24:49</sys_created_on>
+        <sys_id>173c723583a11210adeff6d6feaad3cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="CEP Validator" source="x_1259159_cepvalid">8997a23983211210adeff6d6feaad345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CEP Validator">8997a23983211210adeff6d6feaad345</sys_scope>
+        <sys_update_name>sp_column_173c723583a11210adeff6d6feaad3cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 14:44:23</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CEP Validator">8997a23983211210adeff6d6feaad345</application>
+        <file_path/>
+        <instance_id>f709e0cdeb7b8250e483f459bad0cdba</instance_id>
+        <instance_name>dev284621</instance_name>
+        <name>sp_column_173c723583a11210adeff6d6feaad3cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag>main</semantic_tag><size/><size_lg/><size_sm/><size_xs/><sp_row display_value="1">573c723583a11210adeff6d6feaad3c8</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-30 14:24:49</sys_created_on><sys_id>173c723583a11210adeff6d6feaad3cb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>1</sys_name><sys_package display_value="CEP Validator" source="x_1259159_cepvalid">8997a23983211210adeff6d6feaad345</sys_package><sys_policy/><sys_scope display_value="CEP Validator">8997a23983211210adeff6d6feaad345</sys_scope><sys_update_name>sp_column_173c723583a11210adeff6d6feaad3cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-30 14:44:23</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-992651157</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>cd97a23983211210adeff6d6feaad349</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 14:44:23</sys_created_on>
+        <sys_id>42b08ff583a11210adeff6d6feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192dde288860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 14:44:23</sys_updated_on>
+        <type>Column</type>
+        <update_guid>0ab08ff5caa1121092a8a97a7f3a7809</update_guid>
+        <update_guid_history>0ab08ff5caa1121092a8a97a7f3a7809:-992651157,133c7235a2a112101b08d79c0832b1cd:-1583669817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">dd72873d83a11210adeff6d6feaad31c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 14:51:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>051d39f79e564ff681142d77612558a9</sys_id>
+        <sys_metadata>173c723583a11210adeff6d6feaad3cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="CEP Validator" source="x_1259159_cepvalid">8997a23983211210adeff6d6feaad345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CEP Validator">8997a23983211210adeff6d6feaad345</sys_scope>
+        <sys_scope_delete display_value="">08811009562647c0aa9b8f4a522ab100</sys_scope_delete>
+        <sys_update_name>sp_column_173c723583a11210adeff6d6feaad3cb</sys_update_name>
+        <sys_update_version display_value="sp_column_173c723583a11210adeff6d6feaad3cb">42b08ff583a11210adeff6d6feaad30a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 14:51:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

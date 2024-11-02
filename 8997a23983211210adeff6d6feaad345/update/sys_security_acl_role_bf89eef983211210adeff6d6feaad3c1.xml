@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:03:12</sys_created_on>
+        <sys_id>bf89eef983211210adeff6d6feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1259159_cepvalid_address.x_1259159_cepvalid.admin</sys_name>
+        <sys_package display_value="CEP Validator" source="x_1259159_cepvalid">8997a23983211210adeff6d6feaad345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CEP Validator">8997a23983211210adeff6d6feaad345</sys_scope>
+        <sys_security_acl display_value="x_1259159_cepvalid_address">3f89eef983211210adeff6d6feaad3be</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bf89eef983211210adeff6d6feaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:03:12</sys_updated_on>
+        <sys_user_role display_value="x_1259159_cepvalid.admin" name="x_1259159_cepvalid.admin">29c7e67983211210adeff6d6feaad370</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

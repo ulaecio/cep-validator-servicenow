@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8b89aef983211210adeff6d6feaad3f3" label="Address" max_length="40" name="x_1259159_cepvalid_address" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Logradouro" max_length="40" name="logradouro" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cidade" max_length="40" name="cidade" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Bairro" max_length="40" name="bairro" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cep" max_length="40" name="cep" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Uf" max_length="40" name="uf" type="string"/>
+    </element>
+</database>
